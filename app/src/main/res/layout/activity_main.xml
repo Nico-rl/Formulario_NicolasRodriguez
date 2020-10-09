@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <EditText
         android:id="@+id/editTextTextPersonName20"
         android:layout_width="160dp"
@@ -24,7 +25,8 @@
         android:inputType="textPersonName"
         android:text="Año"
         tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="337dp" />
+        tools:layout_editor_absoluteY="337dp"
+        android:maxLength="4"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName18"
@@ -34,7 +36,8 @@
         android:inputType="textPersonName"
         android:text="Codigo"
         tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="337dp" />
+        tools:layout_editor_absoluteY="337dp"
+        android:maxLength="3"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName13"
@@ -90,7 +93,8 @@
         android:inputType="textPersonName"
         android:text="Numero de tarjeta"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="264dp" />
+        tools:layout_editor_absoluteY="264dp"
+        android:maxLength="16"/>
 
     <EditText
         android:id="@+id/editTextTextPersonName11"
@@ -100,7 +104,8 @@
         android:inputType="textPersonName"
         android:text="Mes"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="337dp" />
+        tools:layout_editor_absoluteY="337dp"
+        android:maxLength="2"/>
 
     <Button
         android:id="@+id/button"
@@ -129,4 +134,10 @@
         android:text="Apellido"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="193dp" />
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
