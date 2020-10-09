@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+    <ScrollView
     <EditText
         android:id="@+id/editTextTextPersonName20"
         android:layout_width="160dp"
@@ -138,6 +138,8 @@
 
 
 
+</ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
