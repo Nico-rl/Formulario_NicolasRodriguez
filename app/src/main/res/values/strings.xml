@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Formulario</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="estado">Estado</string>
+    <string name="calle_y_numero">Calle y numero</string>
+    <string name="numero_de_tarjeta">Numero de tarjeta</string>
+    <string name="mes">Mes</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="codigo">Codigo</string>
+    <string name="informacion_de_la_tarjeta_de_cr_dito">Informacion de la tarjeta de crédito</string>
+    <string name="a_o">Año</string>
+    <string name="codigo_postal">Codigo Postal</string>
+    <string name="direccion">Direccion</string>
 </resources>
