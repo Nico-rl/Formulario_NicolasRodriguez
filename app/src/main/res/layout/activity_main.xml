@@ -13,7 +13,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Codigo Postal"
+        android:hint="Codigo Postal"
         tools:layout_editor_absoluteX="211dp"
         tools:layout_editor_absoluteY="621dp" />
 
@@ -23,7 +23,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Año"
+        android:hint="Año"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="337dp"
         android:maxLength="4"/>
@@ -34,7 +34,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Codigo"
+        android:hint="Codigo"
         tools:layout_editor_absoluteX="259dp"
         tools:layout_editor_absoluteY="337dp"
         android:maxLength="3"/>
@@ -45,7 +45,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Ciudad"
+        android:hint="Ciudad"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="545dp" />
 
@@ -55,7 +55,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Estado"
+        android:hint="Estado"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="621dp" />
 
@@ -65,7 +65,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Calle y numero"
+        android:hint="Calle y numero"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="473dp" />
 
@@ -91,7 +91,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Numero de tarjeta"
+        android:hint="Numero de tarjeta"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="264dp"
         android:maxLength="16"/>
@@ -102,7 +102,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Mes"
+        android:hint="Mes"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="337dp"
         android:maxLength="2"/>
@@ -121,7 +121,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nombre"
+        android:hint="Nombre"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="122dp" />
 
@@ -131,7 +131,7 @@
         android:layout_height="57dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Apellido"
+        android:hint="Apellido"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="193dp" />
 
