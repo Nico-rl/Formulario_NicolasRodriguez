@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ScrollView
+
     <EditText
         android:id="@+id/editTextTextPersonName20"
         android:layout_width="160dp"
@@ -15,7 +15,8 @@
         android:inputType="textPersonName"
         android:hint="Codigo Postal"
         tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="621dp" />
+        tools:layout_editor_absoluteY="621dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName17"
@@ -26,7 +27,8 @@
         android:hint="Año"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="337dp"
-        android:maxLength="4"/>
+        android:maxLength="4"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName18"
@@ -37,7 +39,10 @@
         android:hint="Codigo"
         tools:layout_editor_absoluteX="259dp"
         tools:layout_editor_absoluteY="337dp"
-        android:maxLength="3"/>
+        android:maxLength="3"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName13"
@@ -47,7 +52,8 @@
         android:inputType="textPersonName"
         android:hint="Ciudad"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="545dp" />
+        tools:layout_editor_absoluteY="545dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName14"
@@ -57,7 +63,10 @@
         android:inputType="textPersonName"
         android:hint="Estado"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="621dp" />
+        tools:layout_editor_absoluteY="621dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName12"
@@ -67,7 +76,10 @@
         android:inputType="textPersonName"
         android:hint="Calle y numero"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="473dp" />
+        tools:layout_editor_absoluteY="473dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
 
     <TextView
         android:id="@+id/textView3"
@@ -75,7 +87,8 @@
         android:layout_height="wrap_content"
         android:text="Informacion de la tarjeta de crédito"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="50dp" />
+        tools:layout_editor_absoluteY="50dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -83,7 +96,8 @@
         android:layout_height="wrap_content"
         android:text="Direccion"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="425dp" />
+        tools:layout_editor_absoluteY="425dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName10"
@@ -94,7 +108,10 @@
         android:hint="Numero de tarjeta"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="264dp"
-        android:maxLength="16"/>
+        android:maxLength="16"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName11"
@@ -105,7 +122,10 @@
         android:hint="Mes"
         tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="337dp"
-        android:maxLength="2"/>
+        android:maxLength="2"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
+
 
     <Button
         android:id="@+id/button"
@@ -113,7 +133,8 @@
         android:layout_height="wrap_content"
         android:text="Guardar"
         tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="39dp" />
+        tools:layout_editor_absoluteY="39dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -123,7 +144,9 @@
         android:inputType="textPersonName"
         android:hint="Nombre"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="122dp" />
+        tools:layout_editor_absoluteY="122dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="Nombre" />
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
@@ -133,12 +156,14 @@
         android:inputType="textPersonName"
         android:hint="Apellido"
         tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="193dp" />
+        tools:layout_editor_absoluteY="193dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="" />
 
 
 
 
-</ScrollView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
