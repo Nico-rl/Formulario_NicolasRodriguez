@@ -2,7 +2,7 @@ package cl.santotomas.formulario.entidades;
 
 public class Usuario {
 
-    private Integer id;
+
     private String nombre;
     private String apellido;
     private Integer numeroTarjeta;
@@ -14,8 +14,8 @@ public class Usuario {
     private String Estado;
     private Integer CodigoPostal;
 
-    public Usuario(Integer id, String nombre, String apellido, Integer numeroTarjeta, String mesTarjeta, Integer anioTarjeta, Integer codigoTarjeta, String calleNumero, String ciudad, String estado, Integer codigoPostal) {
-        this.id = id;
+    public Usuario(String nombre, String apellido, Integer numeroTarjeta, String mesTarjeta, Integer anioTarjeta, Integer codigoTarjeta, String calleNumero, String ciudad, String estado, Integer codigoPostal) {
+
         this.nombre = nombre;
         this.apellido = apellido;
         this.numeroTarjeta = numeroTarjeta;
@@ -28,13 +28,7 @@ public class Usuario {
         CodigoPostal = codigoPostal;
     }
 
-    public Integer getId() {
-        return id;
-    }
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
 
     public String getNombre() {
         return nombre;

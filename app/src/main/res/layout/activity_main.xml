@@ -16,7 +16,7 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName20"
+            android:id="@+id/campoCodigoPostal"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="29dp"
@@ -25,14 +25,14 @@
             android:ems="10"
             android:hint="@string/codigo_postal"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName14"
+            app:layout_constraintBottom_toBottomOf="@+id/campoEstado"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button2"
-            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName14"
+            app:layout_constraintTop_toTopOf="@+id/campoEstado"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName17"
+            android:id="@+id/campoAnioTarjeta"
             android:layout_width="92dp"
             android:layout_height="0dp"
             android:layout_marginBottom="120dp"
@@ -41,13 +41,13 @@
             android:hint="@string/a_o"
             android:inputType="textPersonName"
             android:maxLength="4"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName13"
+            app:layout_constraintBottom_toTopOf="@+id/campoCiudad"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName18"
+            android:id="@+id/campoCodigoTarjeta"
             android:layout_width="92dp"
             android:layout_height="0dp"
             android:layout_marginEnd="2dp"
@@ -56,14 +56,14 @@
             android:hint="@string/codigo"
             android:inputType="textPersonName"
             android:maxLength="3"
-            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName17"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName10"
-            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName17"
+            app:layout_constraintBottom_toBottomOf="@+id/campoAnioTarjeta"
+            app:layout_constraintEnd_toEndOf="@+id/campoNumeroTarjeta"
+            app:layout_constraintTop_toTopOf="@+id/campoAnioTarjeta"
             tools:ignore="MissingConstraints" />
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName13"
+            android:id="@+id/campoCiudad"
             android:layout_width="0dp"
             android:layout_height="57dp"
             android:layout_marginStart="29dp"
@@ -80,7 +80,7 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName14"
+            android:id="@+id/campoEstado"
             android:layout_width="0dp"
             android:layout_height="57dp"
             android:layout_marginStart="2dp"
@@ -92,13 +92,13 @@
             android:hint="@string/estado"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName17"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName13"
-            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName13"
+            app:layout_constraintEnd_toStartOf="@+id/campoAnioTarjeta"
+            app:layout_constraintStart_toStartOf="@+id/campoCiudad"
+            app:layout_constraintTop_toTopOf="@+id/campoCiudad"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName12"
+            android:id="@+id/campoCalleNumero"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="29dp"
@@ -109,7 +109,7 @@
             android:ems="10"
             android:hint="@string/calle_y_numero"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName13"
+            app:layout_constraintBottom_toTopOf="@+id/campoCiudad"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5"
@@ -132,12 +132,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
             android:text="@string/direccion"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName12"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11"
+            app:layout_constraintStart_toStartOf="@+id/campoCalleNumero"
+            app:layout_constraintTop_toBottomOf="@+id/campoMesTarjeta"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName10"
+            android:id="@+id/campoNumeroTarjeta"
             android:layout_width="0dp"
             android:layout_height="57dp"
             android:layout_marginStart="29dp"
@@ -149,25 +149,26 @@
             android:hint="@string/numero_de_tarjeta"
             android:inputType="textPersonName"
             android:maxLength="16"
-            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName18"
+            app:layout_constraintBottom_toBottomOf="@+id/campoCodigoTarjeta"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName9"
+            app:layout_constraintTop_toTopOf="@+id/campoApellido"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName11"
+            android:id="@+id/campoMesTarjeta"
             android:layout_width="92dp"
             android:layout_height="0dp"
-            android:layout_marginStart="9dp"
+            android:layout_marginStart="8dp"
             android:autofillHints=""
             android:ems="10"
             android:hint="@string/mes"
             android:inputType="textPersonName"
             android:maxLength="2"
-            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName17"
-            app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName10"
-            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName17"
+            app:layout_constraintBottom_toBottomOf="@+id/campoAnioTarjeta"
+            app:layout_constraintStart_toStartOf="@+id/campoNumeroTarjeta"
+            app:layout_constraintTop_toTopOf="@+id/campoAnioTarjeta"
+            app:layout_constraintVertical_bias="0.0"
             tools:ignore="HardcodedText,MissingConstraints" />
 
         <Button
@@ -177,12 +178,12 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="2dp"
             android:text="@string/guardar"
-            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/campoNombre"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/campoNombre"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="29dp"
@@ -193,14 +194,14 @@
             android:ems="10"
             android:hint="@string/nombre"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName9"
+            app:layout_constraintBottom_toTopOf="@+id/campoApellido"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button"
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/campoApellido"
             android:layout_width="0dp"
             android:layout_height="57dp"
             android:layout_marginStart="29dp"
@@ -211,7 +212,7 @@
             android:ems="10"
             android:hint="@string/apellido"
             android:inputType="textPersonName"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName18"
+            app:layout_constraintBottom_toTopOf="@+id/campoCodigoTarjeta"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button"
@@ -219,28 +220,27 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="31dp"
-            android:layout_marginEnd="42dp"
-            android:text="Button"
+            android:layout_width="133dp"
+            android:layout_height="59dp"
+            android:text="Registrar"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName14"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toBottomOf="@+id/campoEstado"
+            app:layout_constraintVertical_bias="1.0"
+            android:onClick="onClick"/>
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginEnd="100dp"
-            android:text="Button"
+            android:layout_width="133dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="57dp"
+            android:text="Buscar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button2"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName20"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintTop_toTopOf="@+id/campoCodigoPostal" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

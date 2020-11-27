@@ -2,6 +2,7 @@ package cl.santotomas.formulario;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,4 +14,18 @@ public class MainActivity extends AppCompatActivity {
 
         ConexionSQLiteHelper conn=new ConexionSQLiteHelper(this,"bd usuarios",null,1);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
